@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+
+*,
+*: before,
+*: after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+span {
+    background-color: #74F900;
+}
+span:last-of-type{
+    background-color: #DE6536;
+}
