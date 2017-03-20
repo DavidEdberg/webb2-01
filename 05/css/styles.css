@@ -16,7 +16,9 @@ body {
 
 .ex1{
     letter-spacing: -4px;
+    word-spacing: :-4px;
 }
 .ex2{
     letter-spacing: 4px;
+    word-spacing: 4px;
 }

@@ -14,3 +14,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
+h1 {
+    color: #4169E1
+}
+
+h1:first-letter {
+    font-size: 1.3em;
+    color: #FF4500
+}
