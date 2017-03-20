@@ -18,3 +18,10 @@ li {
     list-style: square;
     color: orange;
 }
+ol > li {
+    list-style: upper-alpha;
+    color: blue;
+}
+li:last-of-type{
+    margin-bottom: 10px;
+}
