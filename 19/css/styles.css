@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+div {
+    margin: 100px auto;
+    background-color: #2ECC71;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
