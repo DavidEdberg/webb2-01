@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5DEB3;
+}
+.paper{
+    text-align: center;
+    line-height: 100px;
+    width: 600px;
+    height: 100px;
+    background-color: #FFFFFF;
+    margin: 100px auto;
+    box-shadow: 5px 5px 5px #84817C;
+    position: relative;
+}
+.tape1{
+    background-color: rgba(136, 136, 136, 0.49);
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    margin: -220px 0 0 900px;
+    transform: rotate(35deg);
+    
+    
+}
+.tape2{
+    background-color: rgba(136, 136, 136, 0.49);
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    margin: -220px 0 0 310px;
+    transform: rotate(-35deg)
+}
