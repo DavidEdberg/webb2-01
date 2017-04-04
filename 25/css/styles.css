@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    font-size: 60px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.logga{
+    margin: 100px auto;
+    text-align: center;
+    width: 400px;
+    color: #025820;
+    position: relative;
+    height: 100px;
+    background-color: #FDFFCC;
+}
+
+.box1 {
+    background-color: #FCFFA4;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    
+}
+
+.box2 {
+    background-color: #FCFF83;
+    width: 380px;
+    height: 75px;
+    position: absolute;
+    top: 15px;
+left: 10px;
+}
